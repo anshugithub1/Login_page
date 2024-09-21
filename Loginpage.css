@@ -1,0 +1,133 @@
+body{
+    background-image: url(backgroundimages/pexels-pixabay-268533.jpg);
+    background-size: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainblock{
+    background-color: rgba(73, 116, 217, 0.1);
+    border: 2px;
+    border-style: solid;
+    border-radius:40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color:none; 
+    color: white;
+    align-items: center;
+    font-size: 24px;
+    font-family:sans-serif;
+}
+
+p{
+    display:inline-block;
+    margin-left: -3px;
+    margin-right:10px;
+    
+}
+input{
+    /* background: transparent;
+    border:1px;
+    outline: none;
+    border-bottom-style: solid;
+    border-bottom-color: white; */
+}
+label{
+    margin-left: 3px;
+}
+
+.ipbox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   justify-content: center;
+   margin-bottom:10px;
+   /* position: relative; */
+
+}
+
+.mainblock img{
+    border: 1px;
+    border-left-style: solid;
+    /* border-top-style:solid; */
+    border-radius:8px;
+    /* border-top-color:white; */
+    border-left-color: white;
+    padding:3px;
+    height:35px;
+    margin-right: 8px;
+  
+
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+
+}
+
+.loginbutton{
+    margin-top: 30px;
+}
+
+button{
+    font-family: sans-serif;
+    font-size:24px;
+    border: 1px;
+    border-color: rgb(184, 184, 222);
+    border-radius: 6px;
+    cursor:pointer;
+    background-color: none;
+    margin-right: 68px;
+
+}
+.clickedbutton1{
+    font-family: sans-serif;
+    font-size:24px;
+    border: 1px;
+    border-color: rgb(184, 184, 222);
+    border-radius: 6px;
+    cursor:pointer;
+    background-color: none;
+    margin-right: 68px;
+    padding:none;
+
+}
+a{
+    color:rgb(160, 241, 241);
+    margin-left:1px;
+}
+.ipbox1,.ipbox2{
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+}
+
+/* .ipbox2{
+    top:1px;
+    left:1px;
+
+
+}
+.ipbox1{
+    bottom:1rem;
+    left:1em;
+    
+
+
+} */
+
+.fpass{
+    margin-top: -5px;
+    margin-bottom: -15px;
+}
+
+.signup{
+    margin-top:-15px;
+}
